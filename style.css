@@ -1,0 +1,160 @@
+/*
+h1{
+    移到左邊
+    行距:0
+    顏色:藍色
+}
+*/
+h1{
+    margin-right: auto; 
+    line-height: 0px;
+    color:blue
+}
+/*
+h4{
+    顏色:紅色
+}
+*/
+h4{
+    color:rgb(189, 55, 55)
+}
+/*
+h3{
+    顏色:黃色
+}
+*/
+h3{
+    color:goldenrod
+}
+/*
+整個網頁{
+    內邊距:0
+    外邊距:0
+}
+*/
+*{
+    padding: 0;
+     margin: 0;
+ }
+/*
+section, footer {
+    外邊框:寬度5、顏色:灰
+    內邊距:上下:30、左右:50
+    外邊距:0
+    行距:30
+}
+*/
+section, footer {
+    border:5px #989898 solid ;
+    padding: 30px 50px;
+    margin: 0px 0px;
+    line-height: 30px;
+}
+
+/*
+footer a {
+    移除底線
+}
+*/
+footer a {
+    text-decoration: none;
+}
+/*
+footer 鼠標在a標籤上{
+    增加底線
+}
+*/
+footer a:hover {
+    text-decoration: underline;
+}
+/*
+a {
+    顏色:紫色
+}
+*/ 
+a {
+    color:blueviolet
+  }
+/*
+鼠標在a上{
+    字體顏色變綠色
+}
+*/  
+a:hover {
+    color: green;
+}
+/*
+img{
+    最大寬度不會超出版面
+    高度自動調整
+}
+*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+/*
+夜間模式{
+    背景變黑色
+    字體顏色變白色
+*/
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+/*
+header {
+    增加灰色邊框
+    內邊距:上下左右都為50
+    外邊距:0
+    設為相對位置
+    使用flexbox模型
+    所有元素垂直置中
+*/
+header {
+    border: 5px #989898 solid;
+    padding: 50px 50px; 
+    margin: 0px;
+    background-color: #f2f2f2;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+/*
+按鈕{
+    設為絕對位置
+    垂直置中
+    靠右
+    內邊距:上下:8 左右:16
+    背景:黑色
+    字體顏色:白色
+    移除邊框
+    設為圓角半徑為10
+    鼠標移到按鈕上改變型態
+}
+*/
+
+#toggleModeButton {
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*
+#toggleModeButton {
+    margin-left: auto;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+*/
